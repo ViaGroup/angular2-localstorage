@@ -29,3 +29,7 @@ tslint.json
 tsconfig.webpack.json
 
 
+/src/**/*.ts
+index.ts
+!/src/**/*.d.ts
+
