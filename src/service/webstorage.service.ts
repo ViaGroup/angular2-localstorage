@@ -1,9 +1,9 @@
-import {Injectable} from '@angular/core';
-import {WebStorageUtility} from '../utility/webstorage.utility';
+import { Injectable } from '@angular/core';
+import { WebStorageUtility } from '../utility/webstorage.utility';
 
 export interface WebStorageServiceInterface {
     keys: Array<string>;
-    new(): {
+    new (): {
         get(key: string): any;
         set(key: string, value: any): void;
         remove(key: string): void;
